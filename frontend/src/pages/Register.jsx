@@ -237,3 +237,4 @@ const Register = () => {
 
 export default Register;
 
+// minor update
