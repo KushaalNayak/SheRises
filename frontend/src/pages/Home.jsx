@@ -100,7 +100,7 @@ const Home = () => {
             <div className="hero-image">
               <div className="hero-image-wrapper">
                 <img 
-                  src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&h=600&fit=crop" 
+                  src="https:// images.unsplash.com/photo-1582213782179-e0d53f98f2ca?w=800&h=600&fit=crop" 
                   alt="Women empowerment and education"
                   className="hero-img"
                 />
