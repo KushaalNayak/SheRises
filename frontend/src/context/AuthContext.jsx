@@ -33,7 +33,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (email, password) => {
     try {
-      const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+      const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http:// localhost:3000/api';
       
       // Try API call first
       const response = await fetch(`${API_BASE_URL}/auth/login`, {
@@ -69,14 +69,14 @@ export const AuthProvider = ({ children }) => {
       // Instead, return an error asking user to check connection
       return { 
         success: false, 
-        error: 'Failed to connect to server. Please check your connection and ensure the backend server is running on http://localhost:3000' 
+        error: 'Failed to connect to server. Please check your connection and ensure the backend server is running on http:// localhost:3000' 
       };
     }
   };
 
   const register = async (userData) => {
     try {
-      const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000/api';
+      const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http:// localhost:3000/api';
       
       const response = await fetch(`${API_BASE_URL}/auth/register`, {
         method: 'POST',
