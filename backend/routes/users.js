@@ -104,3 +104,4 @@ router.post('/avatar', authenticate, async (req, res) => {
 
 export default router;
 
+// minor update
