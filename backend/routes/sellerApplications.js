@@ -290,4 +290,3 @@ router.patch('/:id/reject', authenticate, isAdmin, [
 });
 
 export default router;
-
