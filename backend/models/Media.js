@@ -75,3 +75,5 @@ mediaSchema.index({ createdAt: -1 });
 const Media = mongoose.model('Media', mediaSchema);
 
 export default Media;
+
+// minor update
