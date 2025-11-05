@@ -84,3 +84,4 @@ const ForumPost = mongoose.model('ForumPost', forumPostSchema);
 
 export default ForumPost;
 
+// minor update
