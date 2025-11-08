@@ -324,3 +324,5 @@ export const productReviewsAPI = {
 };
 
 export default request;
+
+// minor update
