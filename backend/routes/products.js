@@ -160,4 +160,3 @@ router.post('/:id/reviews', authenticate, async (req, res) => {
 });
 
 export default router;
-
